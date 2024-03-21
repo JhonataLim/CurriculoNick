@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../../media/fonts/Kanit-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../media/fonts/Roboto-Medium.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display:flex;
+}
+
+#pessoal{
+flex: 1;
+padding-bottom: 40px;
+}
+
+#pessoal img{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+
+#pessoal .informacoesTexto h1{
+    font-family: Kanit;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#pessoal .informacoesTexto h3{
+    font-family: Roboto;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+#pessoal .informacoesTexto h2{
+    font-family: Kanit;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+
+#pessoal .informacoesTexto p{
+    font-family: Roboto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    
+    text-align: justify;
+}
+
+#pessoal.informacoesTexto img{
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    justify-content: flex-start;
+}
+
+#pessoal .informacoesTexto a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(10, 133, 133);
+}
+
+#profissional{
+    flex: 3;
+    background-color: #121212;
+    padding-left: 30px;
+    color: #ffff;
+}
+
+#profissional h2{
+    font-family: Kanit;
+    padding-top: 40px;
+}
+
+#profissional  h3{
+    font-family: Kanit;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#profissional  p{
+    font-family: Roboto;
+    padding-left: 20px;
+}
+
+#profissional ul{
+    font-family: Roboto;
+    font-size: 12px;
+    padding-left: 40px;
+
+}
+
+#profissional .formacao a{
+    text-decoration: none;
+    color: rgb(10, 133, 133) ;
+    padding-left: 25px;
+
+}
